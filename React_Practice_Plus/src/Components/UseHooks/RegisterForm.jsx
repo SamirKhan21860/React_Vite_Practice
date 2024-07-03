@@ -9,11 +9,6 @@ export default function RegisterForm() {
 
   const [form, setForm] = useState(formData);
 
-  // const handleForm = (e) => {
-  //   ...formData,
-  //   [e.target.name]: e.target.value,
-  // }
-
   return (
     <>
       <label>
