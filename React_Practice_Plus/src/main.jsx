@@ -5,12 +5,14 @@ import "./index.css";
 import InputComponent from "./Components/UseHooks/InputComponent.jsx";
 import RegisterForm from "./Components/UseHooks/RegisterForm.jsx";
 import TextInputWithFocusButton from "./Components/UseHooks/TextInputWithFocusButton.jsx";
+import Parent from "./Components/ManagingStateInReact/Parent.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-    <InputComponent />
+    <Parent />
+    {/* <InputComponent />
     <RegisterForm />
-    <TextInputWithFocusButton />
+    <TextInputWithFocusButton /> */}
   </React.StrictMode>
 );
